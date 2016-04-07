@@ -5,9 +5,12 @@ public class DestroyByTime : MonoBehaviour {
 
 	public float lifeTime;
 
-	// Use this for initialization
+	// Use this for initializati
 	void Start () {
 		Destroy (gameObject, lifeTime);
 	}
 
+     
+
 }
+   
