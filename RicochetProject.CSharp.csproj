@@ -77,5 +77,15 @@
     <Compile Include="Assets\Scripts\WallContact.cs" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Content Include="Assets\Materials\Background.jpg" />
+    <Content Include="Assets\Textures\back.jpg" />
+    <Content Include="Assets\Textures\fx_lazer_orange_dff.tif" />
+    <Content Include="Assets\Textures\jules-green-eyes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Materials\back.mat" />
+    <None Include="Assets\Materials\fx_bolt_orange.mat" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
